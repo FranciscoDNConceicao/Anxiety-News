@@ -3,15 +3,14 @@ html body{
 }
 .header{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-    display: block;
     width: 100%;
     justify-content: center;
+    padding-bottom: 10px;
 }
 .header-title-zone{
     display: flex;
     width: 100%;
     justify-content: center;
-    
 }
 .header .header-image{
     width: 100px;
@@ -20,4 +19,23 @@ html body{
 .header .header-title{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
+    font-weight: 100;
+}
+.header-buttons{
+    display: flex;
+    margin-top: 40px;
+    width: 300px;
+    justify-content: center;
+    justify-content: space-between;
+}
+.header-button-zone{
+    display: flex;
+    justify-content: center;
+}
+.header-button-zone .header-btn{
+    background: none;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
 }
