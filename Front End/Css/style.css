@@ -1,0 +1,23 @@
+html body{
+    margin: 0; padding: 0;
+}
+.header{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    display: block;
+    width: 100%;
+    justify-content: center;
+}
+.header-title-zone{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+.header .header-image{
+    width: 100px;
+    height: 100px;
+}
+.header .header-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
